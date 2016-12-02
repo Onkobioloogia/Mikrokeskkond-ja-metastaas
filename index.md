@@ -65,22 +65,6 @@ background-color: #CBE7A5; /* ; ; */
 }
 </style>
 
-<!-- --- .segue .dark .nobackground -->
-
-<!-- ## Recap -->
-
-<!-- --- -->
-
-<!-- ## Genoomiterviklikkuse kontroll -->
-
-<!-- - Epiteeli struktuur minimeerib geenikahjustusi. -->
-<!--     - Koes kõige seespool asub tüvirakunišš. -->
-<!--     - Soole mukoosa kaitseb toksiinide/mutageenide eest. -->
-<!-- - Raku toksiinipumbad (P-glükovalk, Pgp) -->
-<!-- - Tüviraku nišš ei jagune intensiivselt. -->
-<!-- - Biokeemilised DNA reparatsioonimehhanismid: MMR, BER, NER. -->
-<!-- - Kahjustuste tolereerimismehhanismid, et vältida genoomi ebastabiilsust (*translesion DNA synthesis*). -->
-
 --- .segue .dark .nobackground
 
 ## Vähi mikrokeskkond: strooma
