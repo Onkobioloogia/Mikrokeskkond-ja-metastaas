@@ -759,7 +759,7 @@ Don X. Nguyen, Paula D. Bos and Joan Massagué, 2009.
 
 ***=left
 
-![kops](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJ6FA5__TANORu1Zd2DEO4pOt7jzFlhVan1y8f-sv1kis8HsLeJg)
+![kops](assets/img/kops.png)
 
 ***=right
 
