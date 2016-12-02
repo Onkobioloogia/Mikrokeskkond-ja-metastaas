@@ -2,6 +2,6 @@ library(slidify)
 library(slidifyLibraries)
 
 slidify("index.Rmd")
-browseURL("index.html")
+# browseURL("index.html")
 
-slidify::publish_github("Mikrokeskkond-ja-metastaas", "tpall")
+publish_github("Mikrokeskkond-ja-metastaas", "tpall")
