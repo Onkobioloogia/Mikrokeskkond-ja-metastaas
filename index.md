@@ -253,7 +253,6 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 </a>  A model of cancer cell–stromal fibroblast interactions in the cervix. PDGF-BB produced by a cervical cancer cell upregulates HB-EGF through PDGFRβ activation in an adjacent fibroblast, which in turn facilitates cancer cell growth by activating EGFR. HB-EGF also induces PDGF synthesis in the cervical cancer cell. The paracrine loop can be blocked with inhibitors. 
 </footer>
 
-
 --- &twocol
 
 ## Vähk on kui haav mis ei parane
@@ -265,21 +264,20 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 
 ***=right
 
-![haav](http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg)
+![haav](http://www.cell.com/cms/attachment/2007952073/2030507092/gr3.jpg)
 
-<footer class="source">Pilt: ?
+<footer class="source">Pilt: cell.com
 </footer>
 
 ---
 ## Haava paranemine
 
 
-![wound](http://www.sciencemag.org/content/346/6212/941/F1.large.jpg)
+![wound](http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg)
 
 
 
-<footer class="source">Stages of wound healing.
-Wound healing is classically divided into four stages: (A) hemostasis, (B) inflammation, (C) proliferation, and (D) remodeling. Each stage is characterized by key molecular and cellular events and is coordinated by a host of secreted factors that are recognized and released by the cells of the wounding response. A representative subset of major factors are depicted. PDGF, platelet-derived growth factor; TGF, transforming growth factor; FGFs, fibroblast growth factors; IL-1, interleukin-1; TNF, tumor necrosis factor; KGF, keratinocyte growth factor; IGF, insulin-like growth factor; IFN, interferon; VEGF, vascular endothelial growth factor; HGF, hepatocyte growth factor; MMP, matrix metalloproteinase; TIMP, tissue inhibitor of metalloproteinase. [Advances in skin grafting and treatment of cutaneous wounds](http://www.sciencemag.org/content/346/6212/941.full)
+<footer class="source">http://bme240.eng.uci.edu/students/07s/ngunn/wound_healing.html
 </footer>
 
 ---&twocol
