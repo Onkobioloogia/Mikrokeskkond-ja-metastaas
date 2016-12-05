@@ -179,8 +179,9 @@ Lisaks neoplastilistele rakkudele leidub vähis erinevas proportsioonis normaals
 # Kuidas saab moos kommi sisse?
 
 On välja pakutud kaks alternatiivi:
-- 1. Vähis olevad **normaalsed rakud on jäänukid algsest koest** enne tumorigeneesi algust.
-- 2. Normaalsete rakkude viibimine kasvajas on tingitud **heterotüüpsest signalisatsioonist**.
+
+1. Vähis olevad **normaalsed rakud on jäänukid algsest koest** enne tumorigeneesi algust.
+2. Normaalsete rakkude viibimine kasvajas on tingitud **heterotüüpsest signalisatsioonist**.
 
 ---
 
@@ -206,7 +207,7 @@ On välja pakutud kaks alternatiivi:
     - mitogeensed kasvufaktorid (HGF/SF, VEGF, TGF-$\alpha$, PDGF),
     - kemokiinid (SDF-1/CXCL12, CXCL5)
     - kasvu inhibeerivad signaalid (TGF-$\beta$),
-    - troofilised faktorid mis vahendavad ellujäämist (*insulin-like growth factor-1/2*, IGF-1/2).
+    - troofilised faktorid mis vahendavad ellujäämist (*insulin-like growth factor-1/2* [IGF-1/2]).
 - **Sarnaselt normaalse epiteeliga kontrollivad ka kartsinoomi rakud ümbritsevaid normaalseid kudesid indutseerides neid kasvama**.
 - Teistpidi, strooma rakud võivad signaliseerida vähirakkudele ka kasvu pidurdavalt.
 
