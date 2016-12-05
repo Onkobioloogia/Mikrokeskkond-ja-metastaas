@@ -284,7 +284,7 @@ src="assets/img/journal.pbio.0020007.g001.png">
 ***=right
 
 <img alt="csr" style="width:520px"
-src="assets/img/journal.pbio.0020007.g002.png">
+src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/journal.pbio.0020007.g004">
 
 <footer class="source">Pilt: Gene Expression Signature of Fibroblast Serum Response Predicts Human Cancer Progression: Similarities between Tumors and Wounds
 <a href="http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.0020007">Chang et al., 2004.
