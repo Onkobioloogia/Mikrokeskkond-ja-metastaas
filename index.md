@@ -273,9 +273,8 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 ---
 ## Haava paranemine
 
-
-![wound](http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg)
-
+<img alt="csr" style="width:500px"
+src="http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg">
 
 
 <footer class="source">http://bme240.eng.uci.edu/students/07s/ngunn/wound_healing.html
