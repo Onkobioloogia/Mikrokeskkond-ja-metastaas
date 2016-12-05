@@ -273,7 +273,7 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 
 ---&twocol
 
-## Geeniekspressioon näitab haava fibroblastide ja vähi sarnasust
+# Geeniekspressioon näitab haava fibroblastide ja vähi sarnasust ja on seotud vähi patsientide elulemusega
 
 ***=left
 
