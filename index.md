@@ -356,11 +356,6 @@ src="assets/img/journal.pbio.0020007.g002.png">
 
 ---
 
-![emt](http://www.nature.com/article-assets/npg/srep/2016/160420/srep24606/images_hires/w926/srep24606-f1.jpg)
-
-
----
-
 ## Hüpoksia 
 # Veresooned varustavad kudesid hapniku ja toitainetega
 
