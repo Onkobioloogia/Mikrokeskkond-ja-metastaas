@@ -449,24 +449,6 @@ src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/jou
 </a>
 </footer>
 
----
-
-## Rakuväline maatriks (ECM)
-
-- vähile on iseloomulik dereguleeritud ECM-i dünaamika: MMP-d, plasmin on tugevalt üle ekspresseeritud
-- protelüütline aktiivsus pärit kasvajas resideeruvatest stroomarakkudest sh. TAM-d, CAF-d
-- erinevaid kollageene kasvajates oluliselt rohkem
-- kasvajad sellest tingituna füüsiliselt jäigemad
-- üle-ekspresseeritud proteoglükaanid, CD44: kasvufaktorite presenteerimine
-
----
-
-## ECM-i arhitektuur on kasvajates oluliselt erinev normaalsest stroomast
-
-- kollageen-I: normaalselt mitte-orienteeritud fibrillide asemel on kollageen rinnakasvajates selgelt lineaarselt orienteeritud
-- kasvaja stroomas kollageeni fiibrid tugevalt krosslingitud: lüsüüloksüdaasid (LOX, LOX-like 2)
-- krosslingitud ja tugevam maatriks indutseerib EC migratiooni ja angiogeneesi Bignon et al. (2011)
-
 --- .segue .dark .nobackground
 
 ## Metastaasid
