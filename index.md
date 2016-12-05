@@ -220,6 +220,17 @@ On välja pakutud kaks alternatiivi:
 - **Melanoomid** sekreteerivad samuti PDGF-i, mis indutseerib fibroblastidel IGF-2 sekretsiooni.
 - **Rinnavähi** rakud sõltuvad strooma fibroblastide poolt sekreteeritud SDF-1/CXCL12 kemokiinist ja HGF/SF-st. 
 
+----
+
+![pdgf hgf paracrine loop](http://cancerres.aacrjournals.org/content/canres/71/21/6633/F7.large.jpg)
+
+<footer class="source">Pilt: ©2011 American Association for Cancer Research.
+<a href="
+http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
+">Murata et al., 2011.
+</a>  A model of cancer cell–stromal fibroblast interactions in the cervix. PDGF-BB produced by a cervical cancer cell upregulates HB-EGF through PDGFRβ activation in an adjacent fibroblast, which in turn facilitates cancer cell growth by activating EGFR. HB-EGF also induces PDGF synthesis in the cervical cancer cell. The paracrine loop can be blocked with inhibitors. 
+</footer>
+
 ---&twocol
 
 ## Vähiraku liinide ksenograftid hiires erinevad reaalsetest kasvajatest 
