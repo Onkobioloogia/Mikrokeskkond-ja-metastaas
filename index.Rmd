@@ -270,15 +270,6 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 <footer class="source">Pilt: cell.com
 </footer>
 
----
-## Haava paranemine
-
-<img alt="csr" style="width:500px"
-src="http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg">
-
-
-<footer class="source">http://bme240.eng.uci.edu/students/07s/ngunn/wound_healing.html
-</footer>
 
 ---&twocol
 
@@ -331,6 +322,15 @@ src="assets/img/journal.pbio.0020007.g002.png">
 <img src="http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg" style="width:300px">
 
 <footer class="source">Pilt: http://bme240.eng.uci.edu.
+</footer>
+
+---
+## Haava paranemine
+
+![haav](http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg)
+
+
+<footer class="source">http://bme240.eng.uci.edu/students/07s/ngunn/wound_healing.html
 </footer>
 
 ---
