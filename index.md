@@ -926,55 +926,55 @@ Winslow et al., 2011.
 ![](assets/img/Metgenes2.png)
 
 
----&twocol
+<!-- ---&twocol -->
 
-## Onkogeense signalisatsiooni amplifikatsioon
-# Kolonisatsiooni strateegia: metastaatilist koloniseerimist soodustavad signaaliradasid võimendavad tunnused
+<!-- ## Onkogeense signalisatsiooni amplifikatsioon -->
+<!-- # Kolonisatsiooni strateegia: metastaatilist koloniseerimist soodustavad signaaliradasid võimendavad tunnused -->
 
-***=left
+<!-- ***=left -->
 
-- VCAM-1 ekspressioon rinnavähirakkudes võimendab PI3K-AKT ellujäämis-signaalirada.
-- SRC-i aktivatsioon muudab rinnavähi rakkudes PI3K-AKT raja tundlikkuks CXCL12 ja IGF-1 stimulatsioonile.
+<!-- - VCAM-1 ekspressioon rinnavähirakkudes võimendab PI3K-AKT ellujäämis-signaalirada. -->
+<!-- - SRC-i aktivatsioon muudab rinnavähi rakkudes PI3K-AKT raja tundlikkuks CXCL12 ja IGF-1 stimulatsioonile. -->
 
-***=right
+<!-- ***=right -->
 
-![src](http://www.cell.com/cms/attachment/2009208220/2031782692/fx1.jpg)
+<!-- ![src](http://www.cell.com/cms/attachment/2009208220/2031782692/fx1.jpg) -->
 
-<footer class="source">Pilt: Selection of Bone Metastasis Seeds by Mesenchymal Signals in the Primary Tumor Stroma.
-<a href="http://www.cell.com/abstract/S0092-8674%2813%2900944-6">
-Zhang et al., 2013.
-</a>.
-</footer>
+<!-- <footer class="source">Pilt: Selection of Bone Metastasis Seeds by Mesenchymal Signals in the Primary Tumor Stroma. -->
+<!-- <a href="http://www.cell.com/abstract/S0092-8674%2813%2900944-6"> -->
+<!-- Zhang et al., 2013. -->
+<!-- </a>. -->
+<!-- </footer> -->
 
---- &twocol
+<!-- --- &twocol -->
 
-## Ekspressioonimärklaudade repertuaari laienemine
-# Kolonisatsiooni strateegia, epigeneetiline regulatsioon
+<!-- ## Ekspressioonimärklaudade repertuaari laienemine -->
+<!-- # Kolonisatsiooni strateegia, epigeneetiline regulatsioon -->
 
-- Epigeneetilised muutused nagu histoonide H3K27 demetülatsioon ja DNA demetülatsioon muudavad VHL inaktiveeritud neeruvähis HIF2$\alpha$ märklaudgeenide repertuaari märksa laiemaks: ülesse läheb ka kopsumetastaase soodustavate CXCR4, CYTIP (*Cytohesin 1 Interacting Protein*), LTBP1 ja SLAMF8  geenide ekspressioon ([Vanharanta, 2013](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540187/pdf/nihms421555.pdf)).
+<!-- - Epigeneetilised muutused nagu histoonide H3K27 demetülatsioon ja DNA demetülatsioon muudavad VHL inaktiveeritud neeruvähis HIF2$\alpha$ märklaudgeenide repertuaari märksa laiemaks: ülesse läheb ka kopsumetastaase soodustavate CXCR4, CYTIP (*Cytohesin 1 Interacting Protein*), LTBP1 ja SLAMF8  geenide ekspressioon ([Vanharanta, 2013](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540187/pdf/nihms421555.pdf)). -->
 
-***=left
+<!-- ***=left -->
 
-- Rinnavähkides muutub mittekodeeriva RNA HOTAIR toimel H3K27me3 muster nii, et represseeritakse metastaasi-supressorgeenide ekspressioon ([Gupta, 2013](http://www.nature.com/nature/journal/v464/n7291/full/nature08975.html)).
+<!-- - Rinnavähkides muutub mittekodeeriva RNA HOTAIR toimel H3K27me3 muster nii, et represseeritakse metastaasi-supressorgeenide ekspressioon ([Gupta, 2013](http://www.nature.com/nature/journal/v464/n7291/full/nature08975.html)). -->
 
-***=right
+<!-- ***=right -->
 
-<img src="assets/img/hotair.png" style="width:300px;"/>
+<!-- <img src="assets/img/hotair.png" style="width:300px;"/> -->
 
-<footer class="source">Pilt: Long non-coding RNA HOTAIR reprograms chromatin state to promote cancer metastasis. Gupta, 2013.
-</footer>
+<!-- <footer class="source">Pilt: Long non-coding RNA HOTAIR reprograms chromatin state to promote cancer metastasis. Gupta, 2013. -->
+<!-- </footer> -->
 
----
+<!-- --- -->
 
-## Amplification and Expansion of Oncogenic Pathways as Metastatic Traits
+<!-- ## Amplification and Expansion of Oncogenic Pathways as Metastatic Traits -->
 
-![fitness](http://www.cell.com/cms/attachment/2009273093/2032282109/gr4.jpg)
+<!-- ![fitness](http://www.cell.com/cms/attachment/2009273093/2032282109/gr4.jpg) -->
 
-<footer class="source">Pilt: 
-<a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0#">
-Sakari Vanharanta, Joan Massagué, 2013.
-</a>.
-</footer>
+<!-- <footer class="source">Pilt:  -->
+<!-- <a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0#"> -->
+<!-- Sakari Vanharanta, Joan Massagué, 2013. -->
+<!-- </a>. -->
+<!-- </footer> -->
 
 --- .segue .dark .nobackground
 
