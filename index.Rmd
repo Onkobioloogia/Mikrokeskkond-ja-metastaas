@@ -691,6 +691,20 @@ Don X. Nguyen, Paula D. Bos and Joan Massagué, 2009.
 </footer>
 
 ---
+
+![emt TGFbeta](http://www.nature.com/onc/journal/v25/n54/images/1209701f2.jpg)
+
+<footer class="source">Pilt: **Raf plus TGFbold italic beta-dependent EMT is initiated by endocytosis and lysosomal degradation of E-cadherin**.
+Janda et al., 2006. RafER-induced MAPK activation cooperates with TGFbeta to induce an EMT-like phenotype in RafER EpH4 cells. Confluent RafER cells (clone R5) analysed 48 h after treatment with TGFbeta (2.5 ng/ml), or RafER activation by 4HT (0.1 mu M) or both (TGFbeta plus 4HT). (a–d) Phase-contrast microphotographs; (e–h) confocal images of cell layers on filters stained for E-cadherin (green) and vimentin (red). Narrow panels at the bottom and left border of panels: Z sections through stained cell layers generated from stacks of approx40 XY images. Arrows indicate the apical side of the epithelial layer. Bar, 50 mum. (i–l) RafER cells (clone R5) were analysed 6 days after treatment with TGFbeta (2.5 ng/ml), 4HT (0.1 mu M) or both. Immunofluorescence analysis after staining for E-cadherin (green) and vimentin (red) is shown. Nuclei (DNA) were stained with DAPI (blue). Bar on images h and l, 20 mum.
+</footer>
+
+
+---
+
+![emt](http://www.nature.com/article-assets/npg/srep/2016/160420/srep24606/images_hires/w926/srep24606-f1.jpg)
+
+
+---
 ## Vähirakkude sisenemist vereringesse vahendavad makrofaagid
 
 - Perivaskulaarsed makrofaagid loovad vähis metastaatilise mikrokeskonna (*tumor microenvironment of metastasis*).
