@@ -265,9 +265,9 @@ src="http://www.nature.com/labinvest/journal/v93/n9/images/labinvest201392f1.jpg
 
 ***=right
 
-![haav](http://www.cell.com/cms/attachment/2007952073/2030507092/gr3.jpg)
+![haav](http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg)
 
-<footer class="source">Pilt: cell.com
+<footer class="source">Pilt: ?
 </footer>
 
 ---
