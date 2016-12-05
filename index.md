@@ -408,6 +408,24 @@ src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/jou
 </a>
 </footer>
 
+---&twocol
+## Angiogenees enne ja pärast vähi invasiivseks muutumist
+
+***=left
+# mitteinvasiivne
+![enne](assets/img/Weidner_insitu_bc.jpg)
+
+***=right
+# invasiivne
+
+![pärast](assets/img/Weidner_invasive_bc.jpg)
+
+<footer class="source">Pilt: Tumor Angiogenesis and Metastasis — Correlation in Invasive Breast Carcinoma
+<a href="http://www.nejm.org/doi/full/10.1056/NEJM199101033240101#t=articleResults.">Noel Weidner, M.D., Joseph P. Semple, M.D., William R. Welch, M.D., and Judah Folkman, M.D. N Engl J Med 1991; 324:1-8. DOI: 10.1056/NEJM199101033240101
+</a>
+</footer>
+
+
 ---
 
 ## Veresoonte arv seostub halvema elulemusega rinnavähis
