@@ -256,6 +256,7 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 --- &twocol
 
 ## Vähk on kui haav mis ei parane
+# Normaalsed rakud vähis
 
 ***=left
 
@@ -281,6 +282,7 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 </footer>
 
 ---&twocol
+
 ## Geeniekspressioon näitab haava fibroblastide ja vähi sarnasust
 
 ***=left
