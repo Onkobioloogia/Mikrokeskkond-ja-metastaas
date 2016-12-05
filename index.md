@@ -221,6 +221,7 @@ On välja pakutud kaks alternatiivi:
 - **Rinnavähi** rakud sõltuvad strooma fibroblastide poolt sekreteeritud SDF-1/CXCL12 kemokiinist ja HGF/SF-st. 
 
 ----
+## Vähi-strooma parakriinne signalisatsioon
 
 ![pdgf hgf paracrine loop](http://cancerres.aacrjournals.org/content/canres/71/21/6633/F7.large.jpg)
 
