@@ -1,14 +1,9 @@
 ---
-title       : Vähi mikrokeskkond, angiogenees ja metastaas
-subtitle    : Onkobioloogia
-author      : Taavi Päll
-job         : lektor, TTÜ
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
-mode        : selfcontained 
-knit        : slidify::knit2slides
+title: "Vähi mikrokeskkond, angiogenees ja metastaasid"
+subtitle: "Onkobioloogia"
+author: "Taavi Päll"
+date: "2017/12/11"
+output: xaringan::moon_reader
 ---
 
 <!-- Limit image width and height -->
