@@ -1,114 +1,79 @@
 ---
 title: "Vähi mikrokeskkond, angiogenees ja metastaasid"
-subtitle: "Onkobioloogia"
 author: "Taavi Päll"
 date: "2017/12/11"
 output: xaringan::moon_reader
 ---
 
-<!-- Limit image width and height -->
-<style type="text/css">
-img {     
-  max-height: 480px;     
-  max-width: 600px; 
-}
-</style>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE,message=FALSE,fig.align="center",out.width="70%")
+```
 
-<style> .title-slide {
-  background-color: #FFFFFF; /*#CBE7A5 #EDE0CF; ; #CA9F9D*/
-}
 
-.title-slide hgroup > h1{
- font-family: 'Oswald', 'Helvetica', sanserif; 
-}
+background-image:url(http://lab.rockefeller.edu/fuchs/assets/image/3a_SCC.jpg)
 
-.title-slide hgroup > h1, 
-.title-slide hgroup > h2 {
-  color: #535E43 ;  /* ; #EF5150*/
-}
-</style>
+---
+class: inverse, middle, center
 
-<!-- Center image on slide -->
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
-<script type="text/javascript">
-$(function() {     
-  $("p:has(img)").addClass('centered'); 
-});
-</script>
+# Vähi mikrokeskkond: strooma
 
-<!-- Italic -->
-<style>
-em {
-  font-style: italic
-}
-</style>
-
-<!-- Bold -->
-<style>
-strong {
-  font-weight: bold;
-}
-</style>
-
-<style>
-.title-slide {
-background-image:url(http://lab.rockefeller.edu/fuchs/assets/image/3a_SCC.jpg);
-background-repeat: no-repeat;
-background-position: 0% 5%;
-background-size: 22%;
-background-color: #CBE7A5; /* ; ; */
-}
-</style>
-
---- .segue .dark .nobackground
-
-## Vähi mikrokeskkond: strooma
-
----- &twocol
+---
 
 ## Vähi mikrokeskkond
 
 Kasvajarakud ei eksisteeri organismis isoleeritult, neid ümbritseb kompleksne keskkond, mis koosneb:
 
-***=left
+.pull-left[
 
 - normaalsetest rakkudest,
 - sekreteeritud valkudest,
 - füsioloogilistest madalmolekulaarsetest ühenditest (hormoonid),
 - veresoontest.
 
-***=right
+]
 
-<img src="http://www.nature.com/nature/journal/v501/n7467/images/nature12626-f1.jpg" style="width:300px">
+.pull-right[
 
-<footer class="source">Pilt: Nature.com
-</footer>
+```{r}
+knitr::include_graphics("http://www.nature.com/nature/journal/v501/n7467/images/nature12626-f1.jpg")
+```
 
---- &twocol
+]
+
+.footer[Pilt: Nature.com
+]
+
+---
 
 ## Kasvajad sisaldavad suures mahus strooma rakke
 
-***=left
+.pull-left[
 
-![Gupta, 2003. High-magnification photomicrograph of a high-grade ductal carcinoma. Note the diffuse uniform membranous E.cadherin staining (arrows) of the tumor cells.](assets/img/gupta2003.jpg)
+```{r, fig.cap="Gupta, 2003. High-magnification photomicrograph of a high-grade ductal carcinoma. Note the diffuse uniform membranous E.cadherin staining (arrows) of the tumor cells."}
+knitr::include_graphics("figures/gupta2003.jpg")
+```
 
 - Vasemal: E-kadheriini antikehaga värvitud rinnavähi koelõigud. E-kadheriini ekspresseerivaid vähirakke ümbritseb rohkelt stroomarakke.  
 - Parem: anti-PINCH-positiivne tuumoriga assotseerunud strooma (TAS)
 
 
-***=right
+]
 
-![Wang-Rodriguez, 2002. PINCH protein is present in normal stroma in low abundance but is up-regulated in the stroma associated with common carcinomas.](assets/img/pinch.jpg)
+.pull-right[
 
+```{r, fig.cap="Wang-Rodriguez, 2002. PINCH protein is present in normal stroma in low abundance but is up-regulated in the stroma associated with common carcinomas."}
+knitr::include_graphics("figures/pinch.jpg")
+```
 
+]
 
-<footer class="source">Pildid: 
+.footer[Pildid: 
 <a href="http://onlinelibrary.wiley.com/doi/10.1002/cncr.11332/full">Gupta et al., 2003
 </a>
 ja 
 <a href="http://onlinelibrary.wiley.com/doi/10.1002/cncr.10878/full">Wang-Rodriguez et al., 2002.
 </a>
-</footer>
+]
 
 ***=pnotes
 PINCH/LIMS2 on ekspresseeritud kasvajate stroomas.
@@ -130,8 +95,8 @@ PINCH/LIMS2 on ekspresseeritud kasvajate stroomas.
 <img alt="reed-sternberg cell" src="http://upload.wikimedia.org/wikipedia/commons/3/33/Hodgkin_Disease,_Reed-Sternberg_Cell.jpg" style="width:300px">
 
 
-<footer class="source">Pilt: Wikimedia.
-</footer>
+.footer[Pilt: Wikimedia.
+]
 
 ---
 
@@ -140,64 +105,77 @@ PINCH/LIMS2 on ekspresseeritud kasvajate stroomas.
 Lisaks neoplastilistele rakkudele leidub vähis erinevas proportsioonis normaalseid rakke:
 - T lümfotsüüdid, B lümfotsüüdid, NK ja NKT rakud, makrofaagid (TAM), müeloidset päritolu suppressor-rakud (MDSC), dendriitrakud, neutrofiilid, fibroblastid, müofibroblastid, adipotsüüdid, endoteelirakud, peritsüüdid, lümfoid-endoteel.
 
-![kmk](http://www.nature.com/nm/journal/v19/n11/images/nm.3394-F1.jpg)
+```{r, fig.cap="kmk"}
+knitr::include_graphics("http://www.nature.com/nm/journal/v19/n11/images/nm.3394-F1.jpg")
+```
 
 
-<footer class="source">Pilt: 
+.footer[Pilt: 
 <a href="http://dx.doi.org/10.1038/nm.3394">Quail & Joyce, 2013.
 </a>
-</footer>
+]
 
----&twocol
+---
 
 ## Fibrotsüüdid, nuumrakud, silelihasrakud
 
-***=left
+.pull-left[
 
 - Ülemiste hingamisteede kartsinoomis (HNSCC) on erinevat tüüpi rakke: 
     - CD34+ fibrotsüüdid (inaktiivsed fibroblastid) normaalses (A) ülemiste hingamisteede stroomas ja kartsinoomi (üleval paremal) ümbritsemas (B).
     - $\alpha$-SMA+ silelihasrakud (C) ja CD117+ nuumrakud (D) vähi stroomas.
     - CD117+ nuumrakud normaalses stroomas (E) ja kartsinoomis (F).
 
-***=right
+]
 
-![hnsccstroma](assets/img/HNSCCstroma.png)
+.pull-right[
 
+```{r, fig.cap="hnsccstroma"}
+knitr::include_graphics("figures/HNSCCstroma.png")
+```
 
-<footer class="source">Pilt: 
+]
+
+.footer[Pilt: 
 <a href="http://link.springer.com/content/pdf/10.1007/s00428-003-0965-1.pdf">Barth et al., 2004.
 </a>
-</footer>
+]
 
----&twocol
+---
 
 ## Vähiraku liinide ksenograftid hiires erinevad reaalsetest kasvajatest 
 
-***=right
-
-- Patient-derived xenograft (PDX) models of colorectal cancer recapitulate primary tumor heterogeneity.
-- Hematoxylin and eosin (H&E) stained slides of xenografts generated by traditional HT-29 (A) or SW480 (B) colorectal cancer cell lines, vs a primary colorectal tumor, SCRX-PDX-CR101-p0 (C), and the same patient’s PDX tumor following passaging through NOD/SCID mice, SCRX-PDX-CR101-p1 (D). 
-
-***=left
+.pull-left[
 
 Note the **relative uniformity of the HT-29 (A) and SW480 (B) tumors** relative to the primary (C) or PDX tumor (D).
 
 <img alt="PDX" style="width:400px"
 src="http://www.nature.com/labinvest/journal/v93/n9/images/labinvest201392f1.jpg">
 
-<footer class="source">Pilt: 
+]
+
+.pull-right[
+
+- Patient-derived xenograft (PDX) models of colorectal cancer recapitulate primary tumor heterogeneity.
+- Hematoxylin and eosin (H&E) stained slides of xenografts generated by traditional HT-29 (A) or SW480 (B) colorectal cancer cell lines, vs a primary colorectal tumor, SCRX-PDX-CR101-p0 (C), and the same patient’s PDX tumor following passaging through NOD/SCID mice, SCRX-PDX-CR101-p1 (D). 
+
+]
+
+.footer[Pilt: 
 <a href="http://www.nature.com/labinvest/journal/v93/n9/full/labinvest201392a.html">Williams et al., 2013.
 </a>
-</footer>
+]
 
 ---
 ## Mis põhjustab erinevate normaalsete rakutüüpide olemasolu kasvajas
-# Kuidas saab moos kommi sisse?
+
+- Kuidas saab moos kommi sisse?
 
 On välja pakutud kaks alternatiivi:
 
-1. Vähis olevad **normaalsed rakud on jäänukid algsest koest** enne tumorigeneesi algust.
-2. Normaalsete rakkude viibimine kasvajas on tingitud **heterotüüpsest signalisatsioonist**.
+1. Vähis olevad **normaalsed rakud on jäänukid algsest koest** enne tumorigeneesi algust
+
+2. Normaalsete rakkude viibimine kasvajas on tingitud **heterotüüpsest signalisatsioonist**
 
 ---
 
@@ -207,12 +185,14 @@ On välja pakutud kaks alternatiivi:
 - Heterotüüpne signalisatsioon soodustab või pidurdab kõrvalolevate teiste rakutüüpide jagunemist ja/või ellujäämist.
 - Näiteks: soole epiteelirakud ekspresseerivad **c-MET retseptorit** aga soole mesenhüüm selle ligandi **HGF/SF kasvufaktorit**. 
 
-![recip](assets/img/PDGFA-PDGFR.png)
+```{r, fig.cap="recip"}
+knitr::include_graphics("figures/PDGFA-PDGFR.png")
+```
 
-<footer class="source">Pilt: Retsiprookne PDGF-A ja PDGFR-a ekpsressioon testistes. PDGF-A-d ekspresseerivad tubulaarse epiteeli rakud ja PDGF-R ekspresseerivad mesenhümaalsed rakud. 
+.footer[Pilt: Retsiprookne PDGF-A ja PDGFR-a ekpsressioon testistes. PDGF-A-d ekspresseerivad tubulaarse epiteeli rakud ja PDGF-R ekspresseerivad mesenhümaalsed rakud. 
 <a href="http://jcb.rupress.org/content/149/5/1019.full"> Gnessi et al., 2000.
 </a>
-</footer>
+]
 
 
 ---
@@ -236,75 +216,91 @@ On välja pakutud kaks alternatiivi:
 - **Melanoomid** sekreteerivad samuti PDGF-i, mis indutseerib fibroblastidel IGF-2 sekretsiooni.
 - **Rinnavähi** rakud sõltuvad strooma fibroblastide poolt sekreteeritud SDF-1/CXCL12 kemokiinist ja HGF/SF-st. 
 
-----
+---
 ## Vähi-strooma parakriinne signalisatsioon
 
-![pdgf hgf paracrine loop](http://cancerres.aacrjournals.org/content/canres/71/21/6633/F7.large.jpg)
+```{r, fig.cap="pdgf hgf paracrine loop"}
+knitr::include_graphics("http://cancerres.aacrjournals.org/content/canres/71/21/6633/F7.large.jpg")
+```
 
-<footer class="source">Pilt: ©2011 American Association for Cancer Research.
+.footer[Pilt: ©2011 American Association for Cancer Research.
 <a href="
 http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 ">Murata et al., 2011.
 </a>  A model of cancer cell–stromal fibroblast interactions in the cervix. PDGF-BB produced by a cervical cancer cell upregulates HB-EGF through PDGFRβ activation in an adjacent fibroblast, which in turn facilitates cancer cell growth by activating EGFR. HB-EGF also induces PDGF synthesis in the cervical cancer cell. The paracrine loop can be blocked with inhibitors. 
-</footer>
+]
 
---- &twocol
+---
 
 ## Vähk on kui haav mis ei parane
-# Normaalsed rakud vähis
+Normaalsed rakud vähis
 
-***=left
+.pull-left[
 
 - Harold Dvorak avaldas 1986. aastal oma tähelepanekud, et vähikolle meenutab mitmes mõttes haava mis ei suuda paraneda artiklis "*Tumors: Wounds That Do Not Heal*" [HF Dvorak, 1986](http://www.nejm.org/doi/full/10.1056/NEJM198612253152606). 
 - Haava paranemisel eristatakse **põletikuline faas**, **proliferatiivne faas** ja **küpsemisfaas**.
 
-***=right
+]
 
-![haav](http://www.cell.com/cms/attachment/2007952073/2030507092/gr3.jpg)
+.pull-right[
 
-<footer class="source">Pilt: cell.com
-</footer>
+```{r, fig.cap="haav"}
+knitr::include_graphics("http://www.cell.com/cms/attachment/2007952073/2030507092/gr3.jpg")
+```
+
+]
+
+.footer[Pilt: cell.com
+]
 
 
----&twocol
+---
 
-# Geeniekspressioon näitab haava fibroblastide ja vähi sarnasust ja on seotud vähi patsientide elulemusega
+## Geeniekspressioon näitab haava fibroblastide ja vähi sarnasust ja on seotud vähi patsientide elulemusega
 
-***=left
+.pull-left[
 
 <img alt="csr" style="width:240px"
-src="assets/img/journal.pbio.0020007.g001.png">
+src="figures/journal.pbio.0020007.g001.png">
 
 
-***=right
+]
+
+.pull-right[
 
 <img alt="csr" style="width:520px"
 src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/journal.pbio.0020007.g004">
 
-<footer class="source">Pilt: Gene Expression Signature of Fibroblast Serum Response Predicts Human Cancer Progression: Similarities between Tumors and Wounds
+]
+
+.footer[Pilt: Gene Expression Signature of Fibroblast Serum Response Predicts Human Cancer Progression: Similarities between Tumors and Wounds
 <a href="http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.0020007">Chang et al., 2004.
 </a>
-</footer>
+]
 
----&twocol
-
+---
 ## Vähk kui haav
-# Fibriin tuumoris
+Fibriin tuumoris
 
-***=right
-
-![fib](assets/img/HIS_1629_f4.gif)
-
-
-***=left
+.pull-left[
 
 - Haavas vabanev koefaktor (*tissue factor*) käivitab vere koagulatsioonikaskaadi mille tulemusena vere plasma fibrinogeen konverteeritakse trombiini vahendusel fibriiniks ning moodustub haava sulgev klomp. 
 - Fibriin (pruun värvus) naha stroormas ümber rinnavähi naha metastaasi.
 
-<footer class="source">Pilt: 
+]
+
+.pull-right[
+
+```{r, fig.cap="fib"}
+knitr::include_graphics("figures/HIS_1629_f4.gif")
+```
+
+]
+
+.footer[Pilt: 
 <a href="http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2559.2003.01629.x/full">Colpaert et al., 2003.
 </a>
-</footer>
+]
 
 ---
 
@@ -314,63 +310,74 @@ src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/jou
 - TGF-$\beta$ põhjustab haava kõrval olevate epiteelirakkude **epiteliaal-mesenhümaalse transformatsiooni** (**EMT**). 
 - Sellised EMT läbinud epiteelirakud muutuvad müofibroblastideks, migreeruvad fibriinklombi alla ja katavad dermise. Müofibroblastides ekspresseeritav silelihas aktiin põhjustab haava kokku tõmbamise.
 
-<img src="http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg" style="width:300px">
+```{r}
+knitr::include_graphics("http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg")
+```
 
-<footer class="source">Pilt: http://bme240.eng.uci.edu.
-</footer>
+.footer[Pilt: http://bme240.eng.uci.edu.
+]
 
 ---
 ## Haava paranemine
 
-![haav](http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg)
+```{r, fig.cap="haav"}
+knitr::include_graphics("http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg")
+```
 
 
-<footer class="source">http://bme240.eng.uci.edu/students/07s/ngunn/wound_healing.html
-</footer>
+.footer[http://bme240.eng.uci.edu/students/07s/ngunn/wound_healing.html
+]
 
 ---
 
 ## Epiteliaal-mesenhümaalne transformatsioon (EMT)
 
-# EMT on protsess mille käigus epiteelirakud kaotavad polaarsuse, rakkudevahelised adhesioonid, omandavad amööbse liikumise ja invasiivse võime
+- EMT on protsess mille käigus epiteelirakud kaotavad polaarsuse, rakkudevahelised adhesioonid, omandavad amööbse liikumise ja invasiivse võime
 
 - Vähi metastaaside teke on seotud EMT-ga: kartsinoomi rakud kaotavad E-kadheriini ekspressiooni, murravad läbi basaalmembraani, sisenevad vereringesse, moodustavad distaalseid mikrometastaase ja läbivad EMT-le vastupidise protsessi MET (mesenhümaal-epiteliaalne transformatsioon).
 - EMT annab vähirakkudele resistentsuse onkogeen-indutseeritud senesentsile. 
 - EMT-ga seotud transkriptsioonifaktorid **Twist1, Twist2 ja ZEB1** kaitsevad ka inimese ja hiire fibroblaste senesentsi eest.
 
-----
+---
 
 ## Epiteliaal-mesenhümaalne transformatsioon
 
-![emt](http://www.nature.com/cr/journal/v19/n2/images/cr20095f1.jpg)
+```{r, fig.cap="emt"}
+knitr::include_graphics("http://www.nature.com/cr/journal/v19/n2/images/cr20095f1.jpg")
+```
 
-<footer class="source">Pilt: TGF-beta-induced epithelial to mesenchymal transition
+.footer[Pilt: TGF-beta-induced epithelial to mesenchymal transition
 <a href="http://www.nature.com/cr/journal/v19/n2/full/cr20095a.html">Xu et al., 2009
 </a>
-</footer>
+]
 
 ---
 
 ## Hüpoksia 
-# Veresooned varustavad kudesid hapniku ja toitainetega
 
-![](http://site.hypoxyprobe.com/images/Hypoxia-green-in-rat-brain-tumor.jpg)
+- Veresooned varustavad kudesid hapniku ja toitainetega
 
-<footer class="source">Pilt:hüpoksiline piirkond (roheline) roti ajukasvajas. Punane värv, veresooned.  www.hypoxyprobe.com
-</footer>
+```{r, fig.cap=""}
+knitr::include_graphics("http://site.hypoxyprobe.com/images/Hypoxia-green-in-rat-brain-tumor.jpg")
+```
+
+.footer[Pilt:hüpoksiline piirkond (roheline) roti ajukasvajas. Punane värv, veresooned.  www.hypoxyprobe.com
+]
 
 
 ---
 ## Kasvaja angiogeneesi paradigma
-# Tahked kasvajad ei saa areneda üle 1 mm suuruse ilma angiogeneesi initsieerimata
 
+- Tahked kasvajad ei saa areneda üle 1 mm suuruse ilma angiogeneesi initsieerimata
 
-<img src="assets/img/Folkman.jpg" style="width:55%">
+```{r}
+knitr::include_graphics("figures/Folkman.jpg")
+```
 
-<footer class="source">Pilt: Veresoone poolt ülalpeetavatest vähirakkudest moodustub ring ümber soone. Väljaspool seda ringi on vähirakud suremas/surnud. Dunning roti eesnäärme kartsinoomi ksenograft.
+.footer[Pilt: Veresoone poolt ülalpeetavatest vähirakkudest moodustub ring ümber soone. Väljaspool seda ringi on vähirakud suremas/surnud. Dunning roti eesnäärme kartsinoomi ksenograft.
 <a href="http://jnci.oxfordjournals.org/content/94/12/883.full.pdf+html">Lynn Hlatky, Philip Hahnfeldt, Judah Folkman, 2002.
 </a>
-</footer>
+]
 
 ---
 
@@ -378,87 +385,111 @@ src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/jou
 
 - Kasvaja veresooned on heterogeense luumeniga, lekkivad ja ebakorrapärased
 
-![jain](assets/img/nihms193554f1.jpg)
+```{r, fig.cap="jain"}
+knitr::include_graphics("figures/nihms193554f1.jpg")
+```
 
-<footer class="source">Pilt:
+.footer[Pilt:
 <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2859831/">Fukumura et al., 2010.
 </a>
-</footer>
+]
 
----&twocol
+---
 
 ## Angiogenic switch
 
-***=left
+.pull-left[
 
 - Angiogeneesi käivitumine sõltub pro-ja anti-angiogeneetiliste faktorite tasakaalust.
 - Pro-angiogeneetilised faktorid on VEGF, bFGF, Ang-2, Bv8.
 - Anti-angiogeneetilised faktorid nt. maatriksi komponendid trombospondiin-1 (TSP-1), endostatiin, canstatin, tumstatin. Lahustuvad faktorid interferon-α ja -β (IFN-α and -β), angiostatin.
 
-***=right
+]
 
-![ang](http://ars.els-cdn.com/content/image/1-s2.0-S1044579X09000649-gr1.jpg)
+.pull-right[
 
-<footer class="source">Pilt: The angiogenic switch in carcinogenesis
+```{r, fig.cap="ang"}
+knitr::include_graphics("http://ars.els-cdn.com/content/image/1-s2.0-S1044579X09000649-gr1.jpg")
+```
+
+]
+
+.footer[Pilt: The angiogenic switch in carcinogenesis
 <a href="http://www.sciencedirect.com/science/article/pii/S1044579X09000649">Vanessa Baeriswyl, Gerhard Christofori, 2009.
 </a>
-</footer>
+]
 
----&twocol
+---
 ## Angiogenees enne ja pärast vähi invasiivseks muutumist
 
-***=left
-# mitteinvasiivne
-![enne](assets/img/Weidner_insitu_bc.jpg)
+.pull-left[
+- mitteinvasiivne
+```{r, fig.cap="enne"}
+knitr::include_graphics("figures/Weidner_insitu_bc.jpg")
+```
+]
 
-***=right
-# invasiivne
+.pull-right[
+- invasiivne
+```{r, fig.cap="pärast"}
+knitr::include_graphics("figures/Weidner_invasive_bc.jpg")
+```
+]
 
-![pärast](assets/img/Weidner_invasive_bc.jpg)
-
-<footer class="source">Pilt: Tumor Angiogenesis and Metastasis — Correlation in Invasive Breast Carcinoma
+.footer[Pilt: Tumor Angiogenesis and Metastasis — Correlation in Invasive Breast Carcinoma
 <a href="http://www.nejm.org/doi/full/10.1056/NEJM199101033240101#t=articleResults.">Noel Weidner, M.D., Joseph P. Semple, M.D., William R. Welch, M.D., and Judah Folkman, M.D. N Engl J Med 1991; 324:1-8. DOI: 10.1056/NEJM199101033240101
 </a>
-</footer>
+]
 
 
 ---
 
 ## Veresoonte arv seostub halvema elulemusega rinnavähis
 
-![](http://cancerres.aacrjournals.org/content/64/9/2941/F1.medium.gif)
+```{r, fig.cap=""}
+knitr::include_graphics("http://cancerres.aacrjournals.org/content/64/9/2941/F1.medium.gif")
+```
 
-<footer class="source">Pilt: 
+.footer[Pilt: 
 <a href="http://cancerres.aacrjournals.org/content/64/9/2941.long">Uzzan et al., 2004.
 </a>
-</footer>
+]
 
 ---
 
 ## VEGF ekspressioon vähis on seotud elulemusega
 
-![](http://clincancerres.aacrjournals.org/content/10/5/1706/F1.large.jpg)
+```{r, fig.cap=""}
+knitr::include_graphics("http://clincancerres.aacrjournals.org/content/10/5/1706/F1.large.jpg")
+```
 
-<footer class="source">Pilt: 
+.footer[Pilt: 
 <a href="http://clincancerres.aacrjournals.org/content/10/5/1706.long">Konecny et al., 2004.
 </a>
-</footer>
+]
 
---- .segue .dark .nobackground
+---
+class: inverse, middle, center
 
-## Metastaasid
+# Metastaasid
 
 ---
 
+## Metastaas
+
 - Vähi kollete levimine algsest primaarsest paikmest keha teistesse osadesse
+
 - Selliseid sekundaarseid vähikoldeid nimetatakse __vähi siireteks ehk metastaasideks__
+
 - Vähi siire koosneb rakkudest mis on sarnased vähirakkudele algses paikmes
 
 ---
 
 ## Vähk on evolutsiooniline protsess
 
-![](http://cancerres.aacrjournals.org/content/70/14/5649/F5.large.jpg)
+```{r, fig.cap=""}
+knitr::include_graphics("http://cancerres.aacrjournals.org/content/70/14/5649/F5.large.jpg")
+```
 
 ---
 
@@ -469,43 +500,54 @@ src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/jou
 - Selline haruldane rakukloon selekteeritakse sekundaarses paikmes ja ta suudab ekspandeeruda/kasvada.
 - **Eksisteerivad spetsiifilised metastaasi mutatsioonid/geenid**.
 
-<img src="assets/img/Fidler1977.png" style="height:280px">
+```{r}
+knitr::include_graphics("figures/Fidler1977.png")
+```
 
-<footer class="source">Pilt:  Isaiah J. Fidler and Margaret L. Kripke, 
+.footer[Pilt:  Isaiah J. Fidler and Margaret L. Kripke, 
 <a href="http://162.105.160.3/main/2011course/class%202/Fidler%20Kripke%201977.pdf">1977
 </a>
-</footer>
+]
 
----&twocol
+---
 
 ## Alternatiivne mudel
-# Metastaasi potentsiaal on suuremas osas algses vähimassis olemas
+
+- Metastaasi potentsiaal on suuremas osas algses vähimassis olemas
 
 - Vähi metastaseerumise ennustab algse vähimassi geeniekspressioon.
 
-***=left
+.pull-left[
 
 - Rinnavähi halva prognoosi geenimuster *'poor prognosis' signature*. 
 - Halva prognoosi geenimuster sisaldab geene mis reguleerivad rakutsüklit, invasiooni ja angiogeneesi.
 - **Metastaseerumise põhjustavad samad onkogeensed stiimulid/geenid, mis põhjustasid ka algse vähi tekke**.
 
-***=right
+]
 
-<img src="http://www.nature.com/nature/journal/v415/n6871/images/415530a-f2.2.jpg" style="width:360px">
+.pull-right[
 
-<footer class="source">Pilt:  Gene expression profiling predicts clinical outcome of breast cancer. 
+```{r}
+knitr::include_graphics("http://www.nature.com/nature/journal/v415/n6871/images/415530a-f2.2.jpg")
+```
+
+]
+
+.footer[Pilt:  Gene expression profiling predicts clinical outcome of breast cancer. 
 <a href="http://www.nature.com/nature/journal/v415/n6871/full/415530a.html">van 't Veer et al., 2002.
 </a>
-</footer>
+]
 
 ---
 
 <header>
-<img src="http://img2.wikia.nocookie.net/__cb20130805012715/wingsoffire/images/3/34/Lemony_Snickets_A_Series_of_Unfortunate_Events_Lemony_Snickets_A_Series_Of_Un.png" style="width:96px" align="right">
+```{r}
+knitr::include_graphics("http://img2.wikia.nocookie.net/__cb20130805012715/wingsoffire/images/3/34/Lemony_Snickets_A_Series_of_Unfortunate_Events_Lemony_Snickets_A_Series_Of_Un.png")
+```
 </header>
 
 ## Metastaseerumise protsess
-# Kliiniliselt detekteeritava metastaasi tekkeks peab toimuma terve rida juhuslikke sündmusi
+Kliiniliselt detekteeritava metastaasi tekkeks peab toimuma terve rida juhuslikke sündmusi
 
 - Metastaseerumise käigus peavad vähirakud kõigepealt organismis laiali kanduma ja  uutes asukohtades ellu jääma ning hiljem suutma jaguneda et moodustuks sekundaarne vähk. 
 - Protsess sisaldab 
@@ -520,64 +562,76 @@ src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/jou
 
 ## Metastaasi etapid
 
-![mets](http://www.cell.com/cms/attachment/2009273093/2032282111/gr1.jpg)
+```{r, fig.cap="mets"}
+knitr::include_graphics("http://www.cell.com/cms/attachment/2009273093/2032282111/gr1.jpg")
+```
 
 
-<footer class="source">Pilt: Metastasis Steps and Bottlenecks. Sakari Vanharanta, Joan Massagué, 
+.footer[Pilt: Metastasis Steps and Bottlenecks. Sakari Vanharanta, Joan Massagué, 
 <a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0">2013
 </a>
-</footer>
+]
 
 ---
 
-# Tsütokeratiin positiivsed rinnavähi mikrometastaasid regionaalses lümfisõlmes.
+### Tsütokeratiin positiivsed rinnavähi mikrometastaasid regionaalses lümfisõlmes.
 
-![](http://img.medscape.com/fullsize/migrated/479/961/ajcp479961.fig1b.jpg)
+```{r, fig.cap=""}
+knitr::include_graphics("http://img.medscape.com/fullsize/migrated/479/961/ajcp479961.fig1b.jpg")
+```
 
-<footer class="source">Pilt: 
+.footer[Pilt: 
 <a href="http://ajcp.ascpjournals.org/content/121/5/637.long">
 Ouellette et al., 2004.
 </a>
-</footer>
+]
 
 
 
----&twocol
+---
 
 ## Metastaaside organotropismi määravad faktorid
 
-![](assets/img/gr2_lrg.jpg)
+```{r, fig.cap=""}
+knitr::include_graphics("figures/gr2_lrg.jpg")
+```
 
-***=left
+.pull-left[
 
 - Organ-spetsiifilist levikut määravad faktorid.
     - Vereringe muster.
     - Endoteeli omadused.
     - Ellujäämis niššid.
 
-***=right
+]
+
+.pull-right[
 
 - Organ-spetsiifilist kolonisatsiooni määravad faktorid.
     - Latentsus ja reaktivatsioonisignaalid.
     - Stroomarakkude signalisatsioon.
     - Teraapia vastus.
-    
-<footer class="source">Pilt: Metastasis Steps and Bottlenecks. Sakari Vanharanta, Joan Massagué, 
+
+]
+   
+.footer[Pilt: Metastasis Steps and Bottlenecks. Sakari Vanharanta, Joan Massagué, 
 <a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0">2013
 </a>
-</footer>
+]
 
 
----&twocol
+---
 
 ## Metastaasi ebaefektiivsus
 
-***=left
+.pull-left[
 
 - Tuumorist lahkub vereringesse igapäevaselt tuhandeid vähirakke.
 - Kliinilise metastaasi moodustavad ainult väga väikene osa vereringesse sisenenud vähirakke.
 
-***=right
+]
+
+.pull-right[
 
 ```{r danila, echo=FALSE, warning=FALSE, results='asis'}
 danila <- data.frame(CTC = factor(c("0-2","3-4","5-9","10-50","≥51"),
@@ -598,105 +652,131 @@ ggplot(danila,aes(CTC, (Patients/120)*100, label = CTC, group = 1)) +
 
 ```
 
-<footer class="source">Pildi andmed: 
+]
+
+.footer[Pildi andmed: 
 <a href="http://clincancerres.aacrjournals.org/content/13/23/7053.full">
 Danila et al., 2007.
 </a>
-</footer>
+]
 
----&twocol
+---
 
 ## Kolonisatsioon on metastaseeruvate vähirakkude peamine pudelikael
 
-***=left
+.pull-left[
 
 - Suur osa sekundaarsesse koesse jõudnud vähirakkudest ei jagune ja jäävad dormantsesse seisundisse.
 
-***=right
+]
 
-<img src="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1853000/bin/jh0981430006.jpg" style="width:400px">
+.pull-right[
 
-<footer class="source">Pilt: 
+```{r}
+knitr::include_graphics("http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1853000/bin/jh0981430006.jpg")
+```
+]
+
+.footer[Pilt: 
 <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1853000/">
 Luzzi et al., 1998.
 </a>
-</footer>
+]
 
----&twocol
+---
 
 ## *Seed and soil* hüpotees
-# Komplementaarne kahe eelneva mudeliga
 
-***=left
+- Komplementaarne kahe eelneva mudeliga
 
-![paget](http://www.nature.com/nrc/journal/v3/n6/images/nrc1098-f1.jpg)
+.pull-left[
 
-***=right
+```{r, fig.cap="paget"}
+knitr::include_graphics("http://www.nature.com/nrc/journal/v3/n6/images/nrc1098-f1.jpg")
+```
+
+]
+
+.pull-right[
 
 - 1889. a. pakkus Inglise kirurg Stephen Paget välja nn. *seed and soil* hüpoteesi, mis tänapäevaselt tähendab, et **vähirakud annavad metastaasi kui nad satuvad sobivasse koe mikrokeskkonda**.
+]
 
 ---
 
 ## Metastaasigeenid
-# Primaarses kasvajas ekspresseeritavad metastaasigeenid annavad vähile
+
+- Primaarses kasvajas ekspresseeritavad metastaasigeenid annavad vähile
 
 - **lokaalse kasvueelise**: EREG (epiregulin) ja COX2/PTGS2 ekspressioon stimuleerib angiogeneesi. Kollageeni krosslinkivat aktiivsust omav LOX (lüsüül oksüdaas) indutseerib vähirakkude migratsiooni ja angiogeneesi;
 - **distaalse eelise** mingisse kindlasse organisse infiltreerumiseks: hüpoksia ja TGF-$\beta$ indutseeritud ANGPL4 indutseerib veresoonte läbilaskvuse ja võimaldab siseneda distaalsesse koesse.
 
 
-<img src="assets/img/metastaasigeenid.png" style="width:360px">
+```{r}
+knitr::include_graphics("figures/metastaasigeenid.png")
+```
 
-<footer class="source">Pilt: Metastasis: From dissemination to organ-specific colonization.
+.footer[Pilt: Metastasis: From dissemination to organ-specific colonization.
 <a href="http://www.nature.com/scitable/content/metastasis-from-dissemination-to-organ-specific-colonization-14019153">
 Don X. Nguyen, Paula D. Bos and Joan Massagué, 2009.
 </a>.
-</footer>
+]
 
 ---
 ## EMT ja metastaasid: normaalses arengus toimivad geenid
 
 - EMT reguleerivad TF: E47/E2A ja Twist (bHLH), Snail ja Slug (C2H2 zf), FOXC2 (winged helix, forkhead), Goosegoid (paired homeodomain), etc.
 
-![slug](http://d2qiws50qrj9uc.cloudfront.net/content/develop/134/6/1061/F2.large.jpg?width=800&height=600&carousel=1)
+```{r, fig.cap="slug"}
+knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/134/6/1061/F2.large.jpg?width=800&height=600&carousel=1")
+```
 
   
-<footer class="source">Pilt: dynamic pattern of Lvsnail mRNA expression during sea urchin development. [The Snail repressor is required for PMC ingression in the sea urchin embryo](http://dev.biologists.org/content/134/6/1061)
-</footer>
+.footer[Pilt: dynamic pattern of Lvsnail mRNA expression during sea urchin development. [The Snail repressor is required for PMC ingression in the sea urchin embryo](http://dev.biologists.org/content/134/6/1061)
+]
 
 ---
 ## EMT ja metastaasid: Snail, Slug
 
-![snail](http://d2qiws50qrj9uc.cloudfront.net/content/develop/132/14/3151/F3.large.jpg?width=800&height=600&carousel=1)
+```{r, fig.cap="snail"}
+knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/132/14/3151/F3.large.jpg?width=800&height=600&carousel=1")
+```
 
 
 
-<footer class="source">Pilt: Snail genes are a convergence point in EMT induction.
+.footer[Pilt: Snail genes are a convergence point in EMT induction.
 [The Snail genes as inducers of cell movement and survival: implications in development and cancer](http://dev.biologists.org/content/132/14/3151)
-</footer>
+]
 
 ---
 ## Snaili märklaudgeenid
 
-![snail2](http://d2qiws50qrj9uc.cloudfront.net/content/develop/132/14/3151/F4.large.jpg?width=800&height=600&carousel=1)
+```{r, fig.cap="snail2"}
+knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/132/14/3151/F4.large.jpg?width=800&height=600&carousel=1")
+```
 
 
 
-<footer class="source">Pilt: Downstream targets of Snail.
+.footer[Pilt: Downstream targets of Snail.
 [The Snail genes as inducers of cell movement and survival: implications in development and cancer](http://dev.biologists.org/content/132/14/3151)
-</footer>
+]
 
 ---
 
-![emt TGFbeta](http://www.nature.com/onc/journal/v25/n54/images/1209701f2.jpg)
+```{r, fig.cap="emt TGFbeta"}
+knitr::include_graphics("http://www.nature.com/onc/journal/v25/n54/images/1209701f2.jpg")
+```
 
-<footer class="source">Pilt: **Raf plus TGFbold italic beta-dependent EMT is initiated by endocytosis and lysosomal degradation of E-cadherin**.
+.footer[Pilt: **Raf plus TGFbold italic beta-dependent EMT is initiated by endocytosis and lysosomal degradation of E-cadherin**.
 Janda et al., 2006. RafER-induced MAPK activation cooperates with TGFbeta to induce an EMT-like phenotype in RafER EpH4 cells. Confluent RafER cells (clone R5) analysed 48 h after treatment with TGFbeta (2.5 ng/ml), or RafER activation by 4HT (0.1 mu M) or both (TGFbeta plus 4HT). (a–d) Phase-contrast microphotographs; (e–h) confocal images of cell layers on filters stained for E-cadherin (green) and vimentin (red). Narrow panels at the bottom and left border of panels: Z sections through stained cell layers generated from stacks of approx40 XY images. Arrows indicate the apical side of the epithelial layer. Bar, 50 mum. (i–l) RafER cells (clone R5) were analysed 6 days after treatment with TGFbeta (2.5 ng/ml), 4HT (0.1 mu M) or both. Immunofluorescence analysis after staining for E-cadherin (green) and vimentin (red) is shown. Nuclei (DNA) were stained with DAPI (blue). Bar on images h and l, 20 mum.
-</footer>
+]
 
 
 ---
 
-![emt](http://www.nature.com/article-assets/npg/srep/2016/160420/srep24606/images_hires/w926/srep24606-f1.jpg)
+```{r, fig.cap="emt"}
+knitr::include_graphics("http://www.nature.com/article-assets/npg/srep/2016/160420/srep24606/images_hires/w926/srep24606-f1.jpg")
+```
 
 
 ---
@@ -706,15 +786,16 @@ Janda et al., 2006. RafER-induced MAPK activation cooperates with TGFbeta to ind
 - **Vähirakkude ja makrofaagide vahel toimub EGF/CSF-1 parakriinne signalisatsioon**.
 - Vähirakkude poolt sekreteeritav CSF-1 indutseerib vähi makrofaagidel EGF-i ekspressiooni, mis positiivse tagasisidena omakorda indutseerib vähirakkudel veelgi CSF-1 ekspressiooni.
 
-<img src="http://cancerres.aacrjournals.org/content/69/7/3221/F6.medium.gif" 
-style="width:300px;"/>
+```{r}
+knitr::include_graphics("http://cancerres.aacrjournals.org/content/69/7/3221/F6.medium.gif")
+```
 
 
-<footer class="source">Pilt: Hernandez et al., 
+.footer[Pilt: Hernandez et al., 
 <a href="http://cancerres.aacrjournals.org/content/69/7/3221.long">
 2009
 </a>.
-</footer>
+]
 
 ---
 
@@ -722,19 +803,19 @@ style="width:300px;"/>
 
 <div align="center">
 <video width="640" height="390" 
-src="assets/img/movie.mp4#t=45" 
+src="figures/movie.mp4#t=45" 
 controls>
 </video>
 </div>
 
-<footer class="source">Video: www.metastat.com
-</footer>
+.footer[Video: www.metastat.com
+]
 
----&twocol
+---
 
 ## Metastaasi mustrid: organid
 
-***=left
+.pull-left[
 
 - Kasvajad mis annavad metastaase peamiselt ühte organisse:
     - eesnäärmevähid luudesse;
@@ -746,12 +827,18 @@ controls>
     - kopsuvähid;
     - neeruvähid.
 
-***=right
+]
 
-![wiki](http://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Metastasis_sites_for_common_cancers.svg/640px-Metastasis_sites_for_common_cancers.svg.png)
+.pull-right[
 
-<footer class="source">Pilt: wikipedia
-</footer>
+```{r, fig.cap="wiki"}
+knitr::include_graphics("http://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Metastasis_sites_for_common_cancers.svg/640px-Metastasis_sites_for_common_cancers.svg.png")
+```
+
+]
+
+.footer[Pilt: wikipedia
+]
 
 ---
 
@@ -768,21 +855,25 @@ Eesnääre | luud
 Sarkoom | kopsud
 Silma melanoom | maks
 
-<footer class="source">Tabel: Metastasis: From dissemination to organ-specific colonization.
+.footer[Tabel: Metastasis: From dissemination to organ-specific colonization.
 <a href="http://www.nature.com/scitable/content/metastasis-from-dissemination-to-organ-specific-colonization-14019153">
 Don X. Nguyen, Paula D. Bos and Joan Massagué, 2009.
 </a>.
-</footer>
+]
 
---- &twocol
+---
 
 ## Metastaasi muster: vereringe
 
-***=left
+.pull-left[
 
-![kops](assets/img/kops.png)
+```{r, fig.cap="kops"}
+knitr::include_graphics("figures/kops.png")
+```
 
-***=right
+]
+
+.pull-right[
 
 - Kõige esimene organ kuhu südamest välja pumbatav veri jõuab on kopsud.
 - Luuüdis ja maksas olev fenestreeritud endoteel on vähirakkudele vereringest väljumiseks permissiivsem kui muudes organites.
@@ -790,34 +881,42 @@ Don X. Nguyen, Paula D. Bos and Joan Massagué, 2009.
 - kesknärvisüsteemis olev BBB on kõige tugevam barjäär.
 - Ometigi umbes 30% metastaatilistest rinnavähkidest annavad ajumetastaase.
 
-<footer class="source">Pilt: http://www.uic.edu/classes/bios/bios100/lecturesf04am/lect20.htm
-</footer>
+]
 
----&twocol
+.footer[Pilt: http://www.uic.edu/classes/bios/bios100/lecturesf04am/lect20.htm
+]
+
+---
 
 ## Metastaasi muster: vereringe
 
-***=right
+.pull-left[
+
+```{r}
+knitr::include_graphics("http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3043550/bin/nihms268780f3.jpg")
+```
+
+]
+
+.pull-right[
 
 - Vereringe määrab **soolekasvajate peamise metastaaside sihtpaigana maksa**,
     - 80% soolevähi korduv patsentidest on maksametastaasid. 
 - Maksametastaasid on eelkõige tingitud sellest, et **soolestikust lähtuv portaalveen suubub maksa** ja **maksa endoteel on fenestreeritud**.
 
+]
 
-***=left
-
-<img src="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3043550/bin/nihms268780f3.jpg" style="width:460px;">
-
-<footer class="source">Pilt: liver sinusoidal endothelial cell fenestrations.
+.footer[Pilt: liver sinusoidal endothelial cell fenestrations.
 <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3043550/">
 Cogger et al., 2010.
 </a>.
-</footer>
+]
 
 ---
 
 ## Metastaatiline latentsus
-# Kliiniliselt on see periood, mis jääb vähi avastamise ja detekteeritavate metastaaside tekke vahele
+
+- Kliiniliselt on see periood, mis jääb vähi avastamise ja detekteeritavate metastaaside tekke vahele
 
 - Raku tasemel väljendub latentsus 
     - vähiraku jagunemise arrestis ja vaikeolekus (dormantsus);
@@ -827,23 +926,27 @@ Cogger et al., 2010.
 
 ---
 
-# Metastaatilise latentsuse kadu: VCAM-1 vahendatud osteoklastide värbamine
+## Metastaatilise latentsuse kadu: VCAM-1 vahendatud osteoklastide värbamine
 
 - Rinnavähi mudelis on leitud, et sellisest dormantsusest väljunud luu mikrometastaasid on hakanud ekspresseerima enda pinnal VCAM-1 molekuli [Lu et al., 2011](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3241854/).
 - VCAM-1 ekspressioon värbab dormantse vähiraku juurde $\alpha 4 \beta 1$ integriine ekspresseerivad monotsüüdid, mis diferentseeruvad luud lagundavateks osteoklastideks. VCAM-1 on $\alpha 4 \beta 1$ integriini ligand mille kaudu lümfotsüüdid arresteeruvad veresoone pinnal.
 - Osteoklastide aktiveerumisega vabaneb luu maatriksist rohkelt kasvufaktoreid tekib nö. nõiaring (*vicious cycle*).
 
 
-![vcam1](assets/img/nihms337162f8.jpg)
+```{r, fig.cap="vcam1"}
+knitr::include_graphics("figures/nihms337162f8.jpg")
+```
 
 ---
 
-# Metastaatilise latentsuse kadu: sekundaarse koe strooma rakud sekreteerivad tüvirakulisust supresseerivat faktorit
+## Metastaatilise latentsuse kadu: sekundaarse koe strooma rakud sekreteerivad tüvirakulisust supresseerivat faktorit
 
 - Rinnavähi kopsumetastaasid hakkavad sekreteerima tüvirakulisust pärssiva TGF-$\beta$ perekonna ligandi **BMP4** blokeerivat faktorit **Coco** [Gao et al., 2012](http://www.sciencedirect.com/science/article/pii/S0092867412008720).
 - Coco ekspressioon neutraliseerib parakriinse BMP ja võimaldab vähirakkude reaktivatsiooni.
 
-![coco](http://ars.els-cdn.com/content/image/1-s2.0-S0092867412008720-fx1.jpg)
+```{r, fig.cap="coco"}
+knitr::include_graphics("http://ars.els-cdn.com/content/image/1-s2.0-S0092867412008720-fx1.jpg")
+```
 
 ---
 
@@ -855,56 +958,65 @@ Cogger et al., 2010.
 - Rinna- ja eesnäärmevähid reeglina diagnoosimisel metastaseerunud ei ole.
 - Umbes 10% patsentidel esineb vähke mille algne paige on määramatu (*cancer of unknown primary origin*, *CUP*).
 
----&twocol
+---
 
 ## Metastaaside temporaalne muster
 
-Kliiniliselt on raske määrata, kui kiiresti konkreetne vähk progresseerub primaarsest kasvajast latentsete siirete tekkeni ja sealt nähtavate metastaasideni.
+- Kliiniliselt on raske määrata, kui kiiresti konkreetne vähk progresseerub primaarsest kasvajast latentsete siirete tekkeni ja sealt nähtavate metastaasideni.
 
-***=left
+.pull-left[
 
 - Kõhunäärmekasvajad arvati metastaseeruvat progressiooni varases staadiumis, kuid eksoomi sekveneerimine ja matemaatiline modelleerimine viitab pigem, et kõhunäärmekasvajad pigem avastatakse liiga hilja.
 - Rinna ja eesnäärmevähkide puhul tekivad metastaasid vähi arengus vara ja püsivad kaua latentsed.
 
-***=right
+]
+
+.pull-right[
 T1: aeg mis kulub pankrease intraepiteliaalse neoplaasia tekkeks (PanIN). PanIN on ivasiivse vähi eellane. Tavaline vanemaealises populatsioonis. 
 
-<img src="http://www.nature.com/nature/journal/v467/n7319/images/nature09515-f3.2.jpg" 
-style="width:460px;"/>
+```{r}
+knitr::include_graphics("http://www.nature.com/nature/journal/v467/n7319/images/nature09515-f3.2.jpg")
+```
 
+]
 
-<footer class="source">Pilt: Distant metastasis occurs late during the genetic evolution of pancreatic cancer.
+.footer[Pilt: Distant metastasis occurs late during the genetic evolution of pancreatic cancer.
 <a href="http://www.nature.com/nature/journal/v467/n7319/full/nature09515.html">
 Yachida et al., 2010.
 </a>.
-</footer>
+]
 
 ---
 
 ## Veresoontest väljumine
-# Veresoontest väljumist soodustavate geenide ekspressioon suurendab vähirakkude laiali kandumist kudedesse ja seega koloniseerimise tõenäosust.
+
+- Veresoontest väljumist soodustavate geenide ekspressioon suurendab vähirakkude laiali kandumist kudedesse ja seega koloniseerimise tõenäosust.
 
 - Rinnavähi aju metastaase näiteks vahendavad COX2, HB-EGF ja ST6GALNAC5 (*α2,6-sialyltransferase*) ([Bos et al., 2009](http://www.nature.com/nature/journal/v459/n7249/full/nature08021.html)).
 - COX2 ja HB-EGF-EGFR ekspressioon annab vähirakule "võimenduse" mitte fenestreeritud endoteeli läbimiseks ja ajukoe koloniseerimiseks.
 - $\alpha$2,6-sialüültransferaasi ekspressioon põhjustab sialüül-epitoopide ekspressiooni vähiraku pinnal ja võimaldab aju-spetsiifilist infiltratsiooni.
 
-![](assets/img/nature08021-f4.2.jpg)
+```{r, fig.cap=""}
+knitr::include_graphics("figures/nature08021-f4.2.jpg")
+```
 
---- 
+---
 
-# Heterotroopsetel interaktsioonidel on oluline roll metastaatilisel koloniseerimisel
+## Heterotroopsetel interaktsioonidel on oluline roll metastaatilisel koloniseerimisel
 
 - Rinnavähi osteolüütilised metastaasid, kus toimub luukude lagundavate osteoklastide aktivatsioon. Vabaneb terve rida maatriksisse deponeeritud kasvufaktoreid.
     - Vähirakud sekreteerivad paratüroidhormoon peptiidi (PTHrP) ja mõjutavad seeläbi osteoblaste (luukude ülesehitavad rakud) sekreteerima RANKL ja mitte sekreteerima RANKL *decoy* retseptorit OPG (osteoprotegerin), mis stimuleerib osteoblaste.
 - Rinnavähi ajumetastaasid ekspresseerivad IL1$\beta$, mis aktiveerib astrotsüüdid. Aktiveeritud astrotsüüdid hakkavad ekspresseerima NOTCH ligandi JAGGED, mis stimuleerib omakorda vähirakke ([Xing, 2013](http://embomolmed.embopress.org/content/5/3/384.long)).
 
-![](assets/img/F2.large.jpg)
+```{r, fig.cap=""}
+knitr::include_graphics("figures/F2.large.jpg")
+```
 
-<footer class="source">Pilt: IL1b ja rinnavähi ajumetastaaside elulemus.
+.footer[Pilt: IL1b ja rinnavähi ajumetastaaside elulemus.
 <a href="http://embomolmed.embopress.org/content/5/3/384.long">
 Xing et al., 2013.
 </a>.
-</footer>
+]
 
 ---
 
@@ -918,83 +1030,38 @@ Xing et al., 2013.
 ---
 
 ## Metastaasi signalisatsioon: pahaloomuline lisanõks
-# *.., the Bad and the Ugly*
 
 - Soolevähi rakkudes on tavaline TGF-$\beta$ raja inaktivatsioon, samas vähirakud ise ekspresseerivad TGF-$\beta$ mis stimuleerib stroomarakkudel makrofaage aktiveeriva IL-11 ekspressiooni.
 - Eesnäärmevähi hiire mudelis annavad PTEN ja TP53 inaktivatsioon mitte-agressiivse vähi, kuid lisaks SMAD4 inaktiveerimine viib metastaseeruvate kasvajate tekkeni.
 - Nkx2.1 tuumorsupressori muteerumine muudab KRASG12D-TP53-/- rakud metastaatilisteks.  
 
-<img src="assets/img/Nkx2-1.png" 
-style="height:200px;"/>
+```{r, out.width='40%'}
+knitr::include_graphics("figures/Nkx2-1.png")
+```
 
-<footer class="source">Pilt: Nkx2-1 vaigistamine kopsuvähi mudelis suurendab KRASG12D-TP53-/- rakkude kolonisatsioonivõimet.
+
+.footer[Pilt: Nkx2-1 vaigistamine kopsuvähi mudelis suurendab KRASG12D-TP53-/- rakkude kolonisatsioonivõimet.
 <a href="http://www.nature.com/nature/journal/v473/n7345/full/nature09881.html">
 Winslow et al., 2011.
 </a>.
-</footer>
+]
 
 ---
 
-![](assets/img/Metgenes2.png)
+```{r}
+knitr::include_graphics("figures/Metgenes2.png")
+```
 
 
-<!-- ---&twocol -->
+---
+class: inverse, middle, center
 
-<!-- ## Onkogeense signalisatsiooni amplifikatsioon -->
-<!-- # Kolonisatsiooni strateegia: metastaatilist koloniseerimist soodustavad signaaliradasid võimendavad tunnused -->
+# Lingid teistele loengutele
 
-<!-- ***=left -->
+---
+class: inverse, middle
 
-<!-- - VCAM-1 ekspressioon rinnavähirakkudes võimendab PI3K-AKT ellujäämis-signaalirada. -->
-<!-- - SRC-i aktivatsioon muudab rinnavähi rakkudes PI3K-AKT raja tundlikkuks CXCL12 ja IGF-1 stimulatsioonile. -->
-
-<!-- ***=right -->
-
-<!-- ![src](http://www.cell.com/cms/attachment/2009208220/2031782692/fx1.jpg) -->
-
-<!-- <footer class="source">Pilt: Selection of Bone Metastasis Seeds by Mesenchymal Signals in the Primary Tumor Stroma. -->
-<!-- <a href="http://www.cell.com/abstract/S0092-8674%2813%2900944-6"> -->
-<!-- Zhang et al., 2013. -->
-<!-- </a>. -->
-<!-- </footer> -->
-
-<!-- --- &twocol -->
-
-<!-- ## Ekspressioonimärklaudade repertuaari laienemine -->
-<!-- # Kolonisatsiooni strateegia, epigeneetiline regulatsioon -->
-
-<!-- - Epigeneetilised muutused nagu histoonide H3K27 demetülatsioon ja DNA demetülatsioon muudavad VHL inaktiveeritud neeruvähis HIF2$\alpha$ märklaudgeenide repertuaari märksa laiemaks: ülesse läheb ka kopsumetastaase soodustavate CXCR4, CYTIP (*Cytohesin 1 Interacting Protein*), LTBP1 ja SLAMF8  geenide ekspressioon ([Vanharanta, 2013](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540187/pdf/nihms421555.pdf)). -->
-
-<!-- ***=left -->
-
-<!-- - Rinnavähkides muutub mittekodeeriva RNA HOTAIR toimel H3K27me3 muster nii, et represseeritakse metastaasi-supressorgeenide ekspressioon ([Gupta, 2013](http://www.nature.com/nature/journal/v464/n7291/full/nature08975.html)). -->
-
-<!-- ***=right -->
-
-<!-- <img src="assets/img/hotair.png" style="width:300px;"/> -->
-
-<!-- <footer class="source">Pilt: Long non-coding RNA HOTAIR reprograms chromatin state to promote cancer metastasis. Gupta, 2013. -->
-<!-- </footer> -->
-
-<!-- --- -->
-
-<!-- ## Amplification and Expansion of Oncogenic Pathways as Metastatic Traits -->
-
-<!-- ![fitness](http://www.cell.com/cms/attachment/2009273093/2032282109/gr4.jpg) -->
-
-<!-- <footer class="source">Pilt:  -->
-<!-- <a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0#"> -->
-<!-- Sakari Vanharanta, Joan Massagué, 2013. -->
-<!-- </a>. -->
-<!-- </footer> -->
-
---- .segue .dark .nobackground
-
-## Lingid teistele loengutele
-
---- &twocol 
-
-***=left 
+.pull-left[ 
 
 - [Sissejuhatav loeng:vähk, haigestumus ja vähitüübid](http://tpall.github.io/onkobioloogia)
 - [Viirused ja onkogeenid](http://tpall.github.io/viirused-ja-onkogeenid)
@@ -1003,7 +1070,9 @@ Winslow et al., 2011.
 - [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
 - [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
 
-***=right 
+]
+
+.pull-right[ 
 
 - [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
 - [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
@@ -1012,3 +1081,4 @@ Winslow et al., 2011.
 - [Mikrokeskkond ja metastaas](http://tpall.github.io/Mikrokeskkond-ja-metastaas)
 - [Immuunsus](http://tpall.github.io/Immuunsus)
 - [Vähiravimid](http://tpall.github.io/Vahiravim)
+]
