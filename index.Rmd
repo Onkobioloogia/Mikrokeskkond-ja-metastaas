@@ -255,20 +255,25 @@ http://dx.doi.org/10.1158/0008-5472.CAN-11-0034
 ]
 
 ---
+class: inverse, middle, center
 
-## Vähk on kui haav mis ei parane
-Normaalsed rakud vähis
+# Vähk on kui haav mis ei parane
+
+---
+
+## Vähikolle meenutab haava
 
 .pull-left[
 
-- Harold Dvorak avaldas 1986. aastal oma tähelepanekud, et vähikolle meenutab mitmes mõttes haava mis ei suuda paraneda artiklis "*Tumors: Wounds That Do Not Heal*" [HF Dvorak, 1986](http://www.nejm.org/doi/full/10.1056/NEJM198612253152606). 
-- Haava paranemisel eristatakse **põletikuline faas**, **proliferatiivne faas** ja **küpsemisfaas**.
+- Harold Dvorak avaldas 1986. aastal oma tähelepanekud, et vähikolle meenutab mitmes mõttes haava mis ei suuda paraneda artiklis "*Tumors: Wounds That Do Not Heal*" [HF Dvorak, 1986](http://www.nejm.org/doi/full/10.1056/NEJM198612253152606)
+
+- Haava paranemisel eristatakse **põletikuline faas**, **proliferatiivne faas** ja **küpsemisfaas**
 
 ]
 
 .pull-right[
 
-```{r, fig.cap="haav"}
+```{r, out.width='100%'}
 knitr::include_graphics("http://www.cell.com/cms/attachment/2007952073/2030507092/gr3.jpg")
 ```
 
@@ -280,20 +285,21 @@ knitr::include_graphics("http://www.cell.com/cms/attachment/2007952073/203050709
 
 ---
 
-## Geeniekspressioon näitab haava fibroblastide ja vähi sarnasust ja on seotud vähi patsientide elulemusega
+### Geeniekspressioon näitab haava fibroblastide ja vähi sarnasust ja on seotud vähipatsientide elulemusega
 
 .pull-left[
 
-<img alt="csr" style="width:240px"
-src="figures/journal.pbio.0020007.g001.png">
-
+```{r}
+knitr::include_graphics("figures/journal.pbio.0020007.g001.png")
+```
 
 ]
 
 .pull-right[
 
-<img alt="csr" style="width:520px"
-src="http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/journal.pbio.0020007.g004">
+```{r, out.width='100%'}
+knitr::include_graphics("http://journals.plos.org/plosbiology/article/file?type=large&id=10.1371/journal.pbio.0020007.g004")
+```
 
 ]
 
