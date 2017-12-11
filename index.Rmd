@@ -53,10 +53,24 @@ knitr::include_graphics("http://www.nature.com/nature/journal/v501/n7467/images/
 knitr::include_graphics("figures/gupta2003.jpg")
 ```
 
-- Vasemal: E-kadheriini antikehaga värvitud rinnavähi koelõigud. E-kadheriini ekspresseerivaid vähirakke ümbritseb rohkelt stroomarakke.  
-- Parem: anti-PINCH-positiivne tuumoriga assotseerunud strooma (TAS)
+]
 
+.pull-right[
+- E-kadheriini antikehaga värvitud rinnavähi koelõigud. E-kadheriini ekspresseerivaid vähirakke ümbritseb rohkelt stroomarakke.  
+]
 
+---
+
+## Kasvajad sisaldavad suures mahus strooma rakke
+
+.pull-left[
+- PINCH/LIMS2 on ekspresseeritud kasvajate stroomas, *adapter protein in a cytoplasmic complex linking beta-integrins to the actin cytoskeleton*
+- (A) Normaalne eesnääre ja (B) eesnäärme kartsinoom 
+- (C) Käärsool ja käärsoole kartsinoom
+- (D) Käärsoole kartsinoomi suurendus, PINCH-positiivsed rakud on fibroblastoidse morfoloogiaga
+- (E) Normaalne nahk. E, epidermis; F, karvafolliikul; D, strooma fibroblastid  
+- (F) Lamerakuline naha kartsinoom
+- (G) Kopsu adenokartsinoom
 ]
 
 .pull-right[
@@ -75,37 +89,40 @@ ja
 </a>
 ]
 
-***=pnotes
-PINCH/LIMS2 on ekspresseeritud kasvajate stroomas.
-- (A) Normaalne eesnääre ja (B) eesnäärme kartsinoom. 
-- (C) Käärsool ja käärsoole kartsinoom. 
-- (D) Käärsoole kartsinoomi suurendus, PINCH-positiivsed rakud on fibroblastoidse morfoloogiaga. 
-- (E) Normaalne nahk. E, epidermis; F, karvafolliikul; D, strooma fibroblastid.  
-- (F) Lamerakuline naha kartsinoom.
-- (G) Kopsu adenokartsinoom.
+???
+
+
 
 
 ---
 
 ## Kasvajad sisaldavad suures mahus strooma rakke
 
+.pull-left[
 - Kõige sagedasemad vähitüübid nagu rinna, käärsoole, mao ja pankrease kartsinoomid sisaldavad kuni 90% mitte-neoplastilisi rakke.
 - Hodgkinsi lümfoomis on üksikud neoplastilised tsütokiine sekreteerivad **Reed-Steinbergi rakud** ümbritsetud 99% normaalsetest lümfotsüütidest.
+]
 
-<img alt="reed-sternberg cell" src="http://upload.wikimedia.org/wikipedia/commons/3/33/Hodgkin_Disease,_Reed-Sternberg_Cell.jpg" style="width:300px">
+.pull-right[
+```{r}
+knitr::include_graphics("http://upload.wikimedia.org/wikipedia/commons/3/33/Hodgkin_Disease,_Reed-Sternberg_Cell.jpg")
+```
 
+]
 
-.footer[Pilt: Wikimedia.
+.footer[
+Pilt: Wikimedia.
 ]
 
 ---
 
 ## Kasvaja mikrokeskonnas resideeruvad rakutüübid
 
-Lisaks neoplastilistele rakkudele leidub vähis erinevas proportsioonis normaalseid rakke:
+- Lisaks neoplastilistele rakkudele leidub vähis erinevas proportsioonis normaalseid rakke:
 - T lümfotsüüdid, B lümfotsüüdid, NK ja NKT rakud, makrofaagid (TAM), müeloidset päritolu suppressor-rakud (MDSC), dendriitrakud, neutrofiilid, fibroblastid, müofibroblastid, adipotsüüdid, endoteelirakud, peritsüüdid, lümfoid-endoteel.
 
-```{r, fig.cap="kmk"}
+
+```{r}
 knitr::include_graphics("http://www.nature.com/nm/journal/v19/n11/images/nm.3394-F1.jpg")
 ```
 
