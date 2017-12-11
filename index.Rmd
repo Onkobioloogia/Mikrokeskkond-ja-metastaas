@@ -310,18 +310,19 @@ knitr::include_graphics("http://journals.plos.org/plosbiology/article/file?type=
 
 ---
 ## Vähk kui haav
-Fibriin tuumoris
+
 
 .pull-left[
 
-- Haavas vabanev koefaktor (*tissue factor*) käivitab vere koagulatsioonikaskaadi mille tulemusena vere plasma fibrinogeen konverteeritakse trombiini vahendusel fibriiniks ning moodustub haava sulgev klomp. 
-- Fibriin (pruun värvus) naha stroormas ümber rinnavähi naha metastaasi.
+- Haavas vabanev koefaktor (*tissue factor*) käivitab vere koagulatsioonikaskaadi mille tulemusena vere plasma fibrinogeen konverteeritakse trombiini vahendusel fibriiniks ning moodustub haava sulgev klomp
+
+- Fibriin (pruun värvus) naha stroormas ümber rinnavähi naha metastaasi
 
 ]
 
 .pull-right[
 
-```{r, fig.cap="fib"}
+```{r, fig.cap="Fibriin tuumoris"}
 knitr::include_graphics("figures/HIS_1629_f4.gif")
 ```
 
@@ -336,14 +337,18 @@ knitr::include_graphics("figures/HIS_1629_f4.gif")
 
 ## Haavas indutseeritakse epiteelirakkudel EMT
 
-- Haava paranemise põletikulises faasis fibriinklompi põhjustavad vereliistakud ja seejärel klompi migreeruvad makrofaagid sekreteerivad TGF-$\beta$ ja TGF-$\alpha$ kasvu faktoreid.
-- TGF-$\beta$ põhjustab haava kõrval olevate epiteelirakkude **epiteliaal-mesenhümaalse transformatsiooni** (**EMT**). 
-- Sellised EMT läbinud epiteelirakud muutuvad müofibroblastideks, migreeruvad fibriinklombi alla ja katavad dermise. Müofibroblastides ekspresseeritav silelihas aktiin põhjustab haava kokku tõmbamise.
+.pull-left[
+- Haava paranemise põletikulises faasis fibriinklompi põhjustavad vereliistakud ja seejärel klompi migreeruvad makrofaagid sekreteerivad TGF-b ja TGF-a kasvu faktoreid
+- TGF-b põhjustab haava kõrval olevate epiteelirakkude **epiteliaal-mesenhümaalse transformatsiooni** (**EMT**)
+- Sellised EMT läbinud epiteelirakud muutuvad müofibroblastideks, migreeruvad fibriinklombi alla ja katavad dermise. 
+- Müofibroblastides ekspresseeritav silelihasaktiin põhjustab haava kokku tõmbumise
+]
 
-```{r}
+.pull-right[
+```{r, out.width='100%'}
 knitr::include_graphics("http://bme240.eng.uci.edu/students/07s/ngunn/images/day3_with_text.jpg")
 ```
-
+]
 .footer[Pilt: http://bme240.eng.uci.edu.
 ]
 
