@@ -479,7 +479,7 @@ knitr::include_graphics("figures/Weidner_invasive_bc.jpg")
 
 ## Veresoonte arv seostub halvema elulemusega rinnavähis
 
-```{r, out.width='40%'}
+```{r, out.width='40%', fig.cap=' MVD was a significant although weak prognostic factor in women with breast cancer.'}
 knitr::include_graphics("http://cancerres.aacrjournals.org/content/64/9/2941/F1.medium.gif")
 ```
 
@@ -518,14 +518,6 @@ class: inverse, middle, center
 
 ---
 
-## Vähk on evolutsiooniline protsess
-
-```{r, fig.cap=""}
-knitr::include_graphics("http://cancerres.aacrjournals.org/content/70/14/5649/F5.large.jpg")
-```
-
----
-
 ## Metastaaside klonaalse selektsiooni mudel
 
 - Tegemist on nö. "Darwinliku selektsiooni" protsessiga. 
@@ -533,7 +525,7 @@ knitr::include_graphics("http://cancerres.aacrjournals.org/content/70/14/5649/F5
 - Selline haruldane rakukloon selekteeritakse sekundaarses paikmes ja ta suudab ekspandeeruda/kasvada.
 - **Eksisteerivad spetsiifilised metastaasi mutatsioonid/geenid**.
 
-```{r}
+```{r, out.width='40%'}
 knitr::include_graphics("figures/Fidler1977.png")
 ```
 
@@ -574,7 +566,7 @@ knitr::include_graphics("http://www.nature.com/nature/journal/v415/n6871/images/
 ---
 
 <header>
-```{r}
+```{r, out.width='15%', fig.align='right'}
 knitr::include_graphics("http://img2.wikia.nocookie.net/__cb20130805012715/wingsoffire/images/3/34/Lemony_Snickets_A_Series_of_Unfortunate_Events_Lemony_Snickets_A_Series_Of_Un.png")
 ```
 </header>
@@ -655,7 +647,7 @@ knitr::include_graphics("figures/gr2_lrg.jpg")
 
 ---
 
-## Metastaasi ebaefektiivsus
+## Metastaaside ebaefektiivsus
 
 .pull-left[
 
@@ -666,7 +658,7 @@ knitr::include_graphics("figures/gr2_lrg.jpg")
 
 .pull-right[
 
-```{r danila, echo=FALSE, warning=FALSE, results='asis'}
+```{r, out.width='100%'}
 danila <- data.frame(CTC = factor(c("0-2","3-4","5-9","10-50","≥51"),
               levels = c("0-2","3-4","5-9","10-50","≥51")),
               Patients = c(30,13,15,25,29))
@@ -675,7 +667,7 @@ library(ggthemes)
 ggplot(danila,aes(CTC, (Patients/120)*100, label = CTC, group = 1)) +
   geom_point() +
   geom_text(hjust = 0, nudge_x = 0.05) +
-  geom_line(linetype = 3) +
+  geom_line(linetype = 3, size = 1) +
   labs(title = "Vereringes olevad vähirakud",
        subtitle = "Eesnäärmevähi patsiendid (n=120)",
        caption = "Danila et al. (2007)",
@@ -724,7 +716,7 @@ Luzzi et al., 1998.
 
 .pull-left[
 
-```{r, fig.cap="paget"}
+```{r}
 knitr::include_graphics("http://www.nature.com/nrc/journal/v3/n6/images/nrc1098-f1.jpg")
 ```
 
@@ -732,7 +724,7 @@ knitr::include_graphics("http://www.nature.com/nrc/journal/v3/n6/images/nrc1098-
 
 .pull-right[
 
-- 1889. a. pakkus Inglise kirurg Stephen Paget välja nn. *seed and soil* hüpoteesi, mis tänapäevaselt tähendab, et **vähirakud annavad metastaasi kui nad satuvad sobivasse koe mikrokeskkonda**.
+- 1889. a. pakkus Inglise kirurg Stephen Paget välja nn. *seed and soil* hüpoteesi, mis tänapäevaselt tähendab, et **vähirakud annavad metastaasi kui nad satuvad sobivasse koe mikrokeskkonda**
 ]
 
 ---
@@ -760,7 +752,7 @@ Don X. Nguyen, Paula D. Bos and Joan Massagué, 2009.
 
 - EMT reguleerivad TF: E47/E2A ja Twist (bHLH), Snail ja Slug (C2H2 zf), FOXC2 (winged helix, forkhead), Goosegoid (paired homeodomain), etc.
 
-```{r, fig.cap="slug"}
+```{r}
 knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/134/6/1061/F2.large.jpg?width=800&height=600&carousel=1")
 ```
 
@@ -771,7 +763,7 @@ knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/13
 ---
 ## EMT ja metastaasid: Snail, Slug
 
-```{r, fig.cap="snail"}
+```{r}
 knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/132/14/3151/F3.large.jpg?width=800&height=600&carousel=1")
 ```
 
@@ -784,7 +776,7 @@ knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/13
 ---
 ## Snaili märklaudgeenid
 
-```{r, fig.cap="snail2"}
+```{r}
 knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/132/14/3151/F4.large.jpg?width=800&height=600&carousel=1")
 ```
 
@@ -796,7 +788,7 @@ knitr::include_graphics("http://d2qiws50qrj9uc.cloudfront.net/content/develop/13
 
 ---
 
-```{r, fig.cap="emt TGFbeta"}
+```{r}
 knitr::include_graphics("http://www.nature.com/onc/journal/v25/n54/images/1209701f2.jpg")
 ```
 
@@ -807,7 +799,7 @@ Janda et al., 2006. RafER-induced MAPK activation cooperates with TGFbeta to ind
 
 ---
 
-```{r, fig.cap="emt"}
+```{r}
 knitr::include_graphics("http://www.nature.com/article-assets/npg/srep/2016/160420/srep24606/images_hires/w926/srep24606-f1.jpg")
 ```
 
@@ -864,7 +856,7 @@ controls>
 
 .pull-right[
 
-```{r, fig.cap="wiki"}
+```{r}
 knitr::include_graphics("http://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Metastasis_sites_for_common_cancers.svg/640px-Metastasis_sites_for_common_cancers.svg.png")
 ```
 
@@ -900,7 +892,7 @@ Don X. Nguyen, Paula D. Bos and Joan Massagué, 2009.
 
 .pull-left[
 
-```{r, fig.cap="kops"}
+```{r}
 knitr::include_graphics("figures/kops.png")
 ```
 
@@ -966,7 +958,7 @@ Cogger et al., 2010.
 - Osteoklastide aktiveerumisega vabaneb luu maatriksist rohkelt kasvufaktoreid tekib nö. nõiaring (*vicious cycle*).
 
 
-```{r, fig.cap="vcam1"}
+```{r}
 knitr::include_graphics("figures/nihms337162f8.jpg")
 ```
 
@@ -974,10 +966,10 @@ knitr::include_graphics("figures/nihms337162f8.jpg")
 
 ## Metastaatilise latentsuse kadu: sekundaarse koe strooma rakud sekreteerivad tüvirakulisust supresseerivat faktorit
 
-- Rinnavähi kopsumetastaasid hakkavad sekreteerima tüvirakulisust pärssiva TGF-$\beta$ perekonna ligandi **BMP4** blokeerivat faktorit **Coco** [Gao et al., 2012](http://www.sciencedirect.com/science/article/pii/S0092867412008720).
+- Rinnavähi kopsumetastaasid hakkavad sekreteerima tüvirakulisust pärssiva TGF-b perekonna ligandi **BMP4** blokeerivat faktorit **Coco** [Gao et al., 2012](http://www.sciencedirect.com/science/article/pii/S0092867412008720).
 - Coco ekspressioon neutraliseerib parakriinse BMP ja võimaldab vähirakkude reaktivatsiooni.
 
-```{r, fig.cap="coco"}
+```{r}
 knitr::include_graphics("http://ars.els-cdn.com/content/image/1-s2.0-S0092867412008720-fx1.jpg")
 ```
 
@@ -1029,7 +1021,7 @@ Yachida et al., 2010.
 - COX2 ja HB-EGF-EGFR ekspressioon annab vähirakule "võimenduse" mitte fenestreeritud endoteeli läbimiseks ja ajukoe koloniseerimiseks.
 - $\alpha$2,6-sialüültransferaasi ekspressioon põhjustab sialüül-epitoopide ekspressiooni vähiraku pinnal ja võimaldab aju-spetsiifilist infiltratsiooni.
 
-```{r, fig.cap=""}
+```{r}
 knitr::include_graphics("figures/nature08021-f4.2.jpg")
 ```
 
@@ -1041,7 +1033,7 @@ knitr::include_graphics("figures/nature08021-f4.2.jpg")
     - Vähirakud sekreteerivad paratüroidhormoon peptiidi (PTHrP) ja mõjutavad seeläbi osteoblaste (luukude ülesehitavad rakud) sekreteerima RANKL ja mitte sekreteerima RANKL *decoy* retseptorit OPG (osteoprotegerin), mis stimuleerib osteoblaste.
 - Rinnavähi ajumetastaasid ekspresseerivad IL1$\beta$, mis aktiveerib astrotsüüdid. Aktiveeritud astrotsüüdid hakkavad ekspresseerima NOTCH ligandi JAGGED, mis stimuleerib omakorda vähirakke ([Xing, 2013](http://embomolmed.embopress.org/content/5/3/384.long)).
 
-```{r, fig.cap=""}
+```{r}
 knitr::include_graphics("figures/F2.large.jpg")
 ```
 
